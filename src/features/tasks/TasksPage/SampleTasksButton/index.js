@@ -7,15 +7,6 @@ const SampleTasksButton = () => {
     const loading = useSelector(selectLoading);
     return (
         <ButtonsDiv>
-            <ButtonAdditional
-                disabled={loading}
-                onClick={() => dispatch(fetchExampleTasks())}>
-                {loading
-                    ? "Đang tải..."
-                    : "Tải xuống dữ liệu mẫu"
-                }
-            </ButtonAdditional>
-
         </ButtonsDiv>
     );
 };
