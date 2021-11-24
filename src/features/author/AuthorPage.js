@@ -17,7 +17,7 @@ export default () => (
                         <Image src={VanGiau} alt="Nguyễn Văn Giàu avatar" />
                         <StyledParagraph>
                             <p className="context">Họ và tên: Nguyễn Văn Giàu</p>
-                            <p className="context">MSSV: 4501104061</p>
+                            <p className="context">MSSV: 45.01.104.061</p>
                             <p className="context">Trường: Đại học Sư phạm TP.HCM</p>
                             <p className="context">Học phần: Công nghệ Web</p>
                         </StyledParagraph>
