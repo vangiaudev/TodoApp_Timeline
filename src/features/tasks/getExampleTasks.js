@@ -1,5 +1,5 @@
 export const getExampleTasks = async () => {
-    const response = await fetch("/TodoApp_Timeline/exampleTasks.json");
+    const response = await fetch("../../../exampleTasks.json");
 
     if (!response.ok) {
         new Error(response.statusText);
